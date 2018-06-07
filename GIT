@@ -1,0 +1,6 @@
+git init //inicia el repositorio
+ls -la  // te enseña las carpetas ocultas, y debes de tener .git 
+//vamos a linkearlo con nuestra cuenta
+git config --global user.name "bullstreeter"
+git config --global user.email "alanrcontrerasm@gmail.com"
+git status // para ver como vamos
