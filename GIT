@@ -4,3 +4,11 @@ ls -la  // te enseña las carpetas ocultas, y debes de tener .git
 git config --global user.name "bullstreeter"
 git config --global user.email "alanrcontrerasm@gmail.com"
 git status // para ver como vamos
+//podemos usar git add * para pasar todos o git add nombreDelArchivo para archivos especificos
+git add *
+git commit -m "commit message" //para ya guardarlo
+
+// todo eso es en local, para trabajar en el remoto se usan pull y push
+
+git remote add origin https://github.com/bullstreeter/git_practice.git //aqui usas el link de tu repositorio
+git push -u origin master
