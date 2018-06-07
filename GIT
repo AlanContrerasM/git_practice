@@ -12,3 +12,6 @@ git commit -m "commit message" //para ya guardarlo
 
 git remote add origin https://github.com/bullstreeter/git_practice.git //aqui usas el link de tu repositorio
 git push -u origin master
+
+//si hubo un cambio en el repositorio remoto y lo quieres jalar a tus archivos locales
+git pull origin master
