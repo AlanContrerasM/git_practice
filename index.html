@@ -13,7 +13,59 @@
             <h1>Practicing Git</h1>
         </header>
         <main>
+            <p>
+                git usage
+                https://github.com/TheOdinProject/curriculum/blob/master/contributing.md
+                el video y la instruccion de odin project para open source projects.
 
+                git clone
+
+                git remote add upstream <link>
+
+                git pull upstream
+
+                git commit --ammend
+
+                aliases
+                    git config --global alias.co checkout
+                    git config --global alias.unstage 'reset HEAD --'
+
+                git tag -a v1.4 -m "my version 1.4"
+
+                git tag para ver la lista, para buscar git tag -l "v1.8.5*"
+
+                git show v1.4
+
+                para enviar tus tags, haz git push origin <tagname>
+
+
+                git checkout -b newBranch
+
+                    - on branches first checkout to master git pull upstream, luego
+                    checkout to the branch, git merge master, checkout a master,
+                    y ya git merge la branch name.
+
+                git branch -d testing  ------para borrar-----
+
+
+                git log --oneline --decorate --graph --all
+
+                git mergetool si hay conflicts, o en tu code editor
+
+                git branch -v
+                para decirte cuales branches hay y last commits 
+
+                git branch --merged para ver cuales se han mergeado, las que no tengan *
+                es safe borrarlas con git branch -d <branch>
+
+
+
+
+                rebase es parecido, pero es para trabajo local que no haz publicado
+
+                git rebase master server, esto es escribir lo de server arriba del master
+                despues hacemos un checkout master git merge server
+            </p>
         </main>
         <footer></footer>
         <script src="scripts.js"></script>
